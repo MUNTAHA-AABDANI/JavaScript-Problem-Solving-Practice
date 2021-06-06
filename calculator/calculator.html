@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+   
+    <title>Calculator</title>
+</head>
+<body>
+
+    <div class="container">
+        
+     <h1>Calculator</h1>
+    
+        <!-- <div class="cal-content"> -->
+       <div id="cal-content">
+
+         <label for="num1"  id="Num1">Number 1</label>
+         <input type="number" value="" id="num1">
+        <br>  <br>
+        <label for="num2" id="Num2">Number 2</label>
+        <input type="number" value="" id="num2" >
+        
+        <br>  <br>
+        <h4>calculate:</h4>
+       
+       <br>
+        <button  onclick="Addition()" >+</button>
+        <button  onclick="subtration()">-</button>
+        <button  onclick="multiplication()">*</button>
+        <button   onclick="division()">/</button>
+        
+        <br> <br>
+
+        <h4>Result  :</h4> 
+        <br>
+
+    <div id="result" >
+    </div>
+</div>
+</div>
+    <script src="calculator.js"></script>
+</body>
+</html>
